@@ -1,7 +1,11 @@
 <html>
 	<script>
+		var urls = [
+		"https://youtu.be/ojIKoKNBwN4",
+		"https://youtu.be/9kPy5LT56v8",
+		"https://youtu.be/t2mQxEtNgA0"
+		]
 		var x = 6;
-		console.log(x)
-window.location.replace("https://www.youtube.com/watch?v=D8hCn4no4O8&list=RD9kPy5LT56v8&index=14");
+window.location.replace(urls[Math.floor(Math.random()*urls.length)]);
 	</script>
 </html>
